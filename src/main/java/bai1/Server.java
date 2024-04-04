@@ -31,7 +31,7 @@ public class Server {
             }
         }).start();
 
-        
+
         String input;
         while ((input = in.readLine()) != null) {
             System.out.println("Client: " + input);
